@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: okteuioy
+  name: rdyhtrh
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "okteuioy"
+  - name: "rdyhtrh"
     port: 8080
   selector:
-    app: okteuioy
+    app: rdyhtrh
